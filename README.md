@@ -1,4 +1,4 @@
-# bottle_project_creator
+# create-bottle-app
 
 PythonのWEBフレームワーク"[Bottle](https://bottlepy.org/docs/dev/)"を利用する際に、最低限必要なファイルやフォルダを自動的に生成します。
 
