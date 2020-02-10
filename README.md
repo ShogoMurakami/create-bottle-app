@@ -1,6 +1,6 @@
 # bottle_project_creator
 
-PythonのWEBフレームワーク"[Bottle](https://bottlepy.org/docs/dev/)"を利用する際に、最低限必要なファイルやフォルダを作成します。
+PythonのWEBフレームワーク"[Bottle](https://bottlepy.org/docs/dev/)"を利用する際に、最低限必要なファイルやフォルダを自動的に生成します。
 
 Bottleは以下のコマンドでインストールすることができます。
 
@@ -18,7 +18,7 @@ $ python creator.py
 
 プロジェクト名を聞かれるので、入力します。
 
-その後、自動的にフォルダとファイルが作成されます。
+その後、自動的にフォルダとファイルが生成されます。
 
 # 作成後
 
