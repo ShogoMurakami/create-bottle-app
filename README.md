@@ -24,10 +24,10 @@ $ python creator.py
 
 # 作成後
 
-フォルダとファイルが作成されたら、プロジェクトフォルダに移動し、app.pyを実行してみて下さい。
+フォルダとファイルが生成されたら、プロジェクトフォルダに移動し、app.pyを実行してみて下さい。
 
 ```
-$ cd project-name
+$ cd <project-name>
 $ python app.py
 ```
 
