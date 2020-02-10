@@ -53,8 +53,14 @@ index_bootstrap_str = """<!doctype html>
   </head>
   <body>
 
-    <div class="page-header">
-      <h1>{{message}}</h1>
+    <div class="container">
+
+      <div class="page-header">
+        <h1>
+          {{message}}
+        </h1>
+      </div>
+
     </div>
 
     <!-- Optional JavaScript -->
@@ -81,7 +87,13 @@ index_semantic_str = """<!doctype html>
   </head>
   <body>
 
-    <h1 class="ui huge header">{{message}}</h1>
+    <div class="ui container">
+
+      <h1 class="ui huge header">
+        {{message}}
+      </h1>
+
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
