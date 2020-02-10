@@ -31,7 +31,7 @@ $ cd <project-name>
 $ python app.py
 ```
 
-実行後、localhost:8080 を開くと、Hello, Bottle!が表示されるはずです。
+実行後、http://localhost:8080 を開くと、Hello, Bottle!が表示されるはずです。
 
 あとは、あなたのBottleプロジェクトを充実させていきましょう！
 
