@@ -31,7 +31,9 @@ index_str = """<!doctype html>
   </head>
   <body>
 
-    <h1 class="first-message">{{message}}</h1>
+    <h1 class="first-message">
+      {{message}}
+    </h1>
 
   </body>
 </html>
