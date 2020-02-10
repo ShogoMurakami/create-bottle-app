@@ -11,6 +11,10 @@ new_views_path = project_name + '/views'
 os.makedirs(new_static_path)
 os.makedirs(new_views_path)
 
+framework = int(input("""Choose your favorite UI framework.
+1.Bootstrap4, 2.Semantic UI, 3.None
+Enter number: """))
+
 # index.htmlの作成
 
 index_str = """<!doctype html>
