@@ -25,7 +25,7 @@ $ python creator.py
 フォルダとファイルが作成されたら、app.pyを実行してみて下さい。
 
 ```
-python app.py
+$ python app.py
 ```
 
 実行後、localhost:8080 を開くと、Hello, Bottle!が表示されるはずです。
