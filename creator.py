@@ -12,7 +12,7 @@ os.makedirs(new_static_path)
 os.makedirs(new_views_path)
 
 framework = int(input("""Choose your favorite UI framework.
-1.Bootstrap 4, 2.Semantic UI, 3.None
+1.Bootstrap 4, 2.Semantic UI, 3.Bulma, 4.None
 Enter number: """))
 
 # index.htmlの作成
@@ -103,6 +103,35 @@ index_semantic_str = """<!doctype html>
 </html>
 """
 
+index_bulma_str = """<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="../static/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+
+    <title>""" + project_name + """</title>
+
+  </head>
+  <body>
+
+    <section class="hero is-medium is-primary is-bold">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            {{message}}
+          </h1>
+        </div>
+      </div>
+    </section>
+
+  </body>
+</html>
+"""
+
 new_index = open(new_views_path + '/index.html', 'w')
 
 if framework == 1:
@@ -110,6 +139,9 @@ if framework == 1:
 
 elif framework == 2:
     new_index.write(index_semantic_str)
+
+elif framework == 3:
+    new_index.write(index_bulma_str)
 
 else:
     new_index.write(index_str)
