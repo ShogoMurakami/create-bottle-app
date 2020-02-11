@@ -188,9 +188,6 @@ def error500(error):
 # localでtestする
 app.run(host='localhost', port=8080, debug=True)
 
-# Herokuにデプロイする場合
-# app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
-
 """
 
 new_python_file = open(project_name + '/app.py', 'w')
